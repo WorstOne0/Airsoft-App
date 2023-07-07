@@ -23,8 +23,8 @@ class _HomeState extends ConsumerState<Home> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 10),
                 child: Row(
                   children: [
                     Text(
@@ -35,13 +35,13 @@ class _HomeState extends ConsumerState<Home> {
                   ],
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Container(
                 height: 150,
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   itemCount: 10,
-                  separatorBuilder: (context, index) => SizedBox(width: 10),
+                  separatorBuilder: (context, index) => const SizedBox(width: 10),
                   itemBuilder: (context, index) => Container(
                     height: 150,
                     width: 100,
@@ -52,9 +52,9 @@ class _HomeState extends ConsumerState<Home> {
                   ),
                 ),
               ),
-              SizedBox(height: 25),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
+              const SizedBox(height: 25),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 10),
                 child: Row(
                   children: [
                     Text(
@@ -65,19 +65,19 @@ class _HomeState extends ConsumerState<Home> {
                   ],
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               ListView.separated(
                 itemCount: 3,
                 shrinkWrap: true,
                 primary: false,
-                separatorBuilder: (context, index) => SizedBox(height: 10),
+                separatorBuilder: (context, index) => const SizedBox(height: 10),
                 itemBuilder: (context, index) => Container(
                   height: 200,
                   decoration: BoxDecoration(
                     color: Colors.red,
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: Column(children: []),
+                  child: const Column(children: []),
                 ),
               )
             ],
@@ -86,7 +86,7 @@ class _HomeState extends ConsumerState<Home> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }
