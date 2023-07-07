@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592252446295",
+    "project_id": "airsoft-14d94",
+    "storage_bucket": "airsoft-14d94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592252446295:android:8645df57202352bd532512",
+        "android_client_info": {
+          "package_name": "com.example.airsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592252446295-akjiu903nvq4d7557kphjcemn9fr0rke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNlsls40qMA28vbzFg7AUxRDhEn-EiLUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592252446295-akjiu903nvq4d7557kphjcemn9fr0rke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
