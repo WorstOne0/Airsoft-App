@@ -35,7 +35,10 @@ class _MyPageViewState extends ConsumerState<MyPageView> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
+        // backgroundColor: Theme.of(context).colorScheme.primary,
+        // selectedItemColor: Colors.white,
+        // selectedLabelStyle: TextStyle(color: Colors.white),
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
