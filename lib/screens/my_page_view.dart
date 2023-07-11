@@ -1,4 +1,5 @@
 // Flutter Packages
+import 'package:airsoft/screens/marketplace.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 // Screens
@@ -29,7 +30,7 @@ class _MyPageViewState extends ConsumerState<MyPageView> {
         onPageChanged: (value) => setState(() => _currentPage = value),
         children: [
           Home(),
-          Container(),
+          Marketplace(),
           Container(),
           Container(),
         ],

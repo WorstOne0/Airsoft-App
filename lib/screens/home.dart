@@ -32,7 +32,7 @@ class _HomeState extends ConsumerState<Home> with AutomaticKeepAliveClientMixin<
           ),
           borderRadius: BorderRadius.circular(8),
         ),
-        child: Stack(
+        child: const Stack(
           children: [
             Positioned(
               bottom: 5,
@@ -72,7 +72,7 @@ class _HomeState extends ConsumerState<Home> with AutomaticKeepAliveClientMixin<
               ),
               borderRadius: BorderRadius.circular(15),
             ),
-            child: Stack(
+            child: const Stack(
               children: [
                 Positioned(
                   top: 10,
@@ -127,8 +127,8 @@ class _HomeState extends ConsumerState<Home> with AutomaticKeepAliveClientMixin<
           ),
           Container(
             height: 30,
-            padding: EdgeInsets.symmetric(horizontal: 30),
-            child: Row(
+            padding: const EdgeInsets.symmetric(horizontal: 30),
+            child: const Row(
               children: [
                 Row(
                   mainAxisSize: MainAxisSize.min,
@@ -245,7 +245,7 @@ class _HomeState extends ConsumerState<Home> with AutomaticKeepAliveClientMixin<
         icon: Icons.add,
         spacing: 10,
         spaceBetweenChildren: 3,
-        childPadding: EdgeInsets.all(5),
+        childPadding: const EdgeInsets.all(5),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
         children: [
           SpeedDialChild(
